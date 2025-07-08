@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("🚢 CSV Data Dashboard")
+st.title("CSV Data Dashboard")
 
 # Upload CSV
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
